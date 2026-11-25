@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="55%" stop-color="#081a32"/>
+      <stop offset="100%" stop-color="#020a18"/>
+    </radialGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a5f" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a3a5f" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="55%" r="35%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hex" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+      <path d="M30 1 L58 17 L58 50 L30 66 L2 50 L2 17 Z" fill="none" stroke="#1f4878" stroke-width="0.5" opacity="0.35"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#topGlow)"/>
+  <rect width="1920" height="1080" fill="url(#hex)" opacity="0.55"/>
+  <rect width="1920" height="1080" fill="url(#centerGlow)"/>
+
+  <!-- 点阵世界地图 -->
+  <g fill="#4a90e2" opacity="0.55">
+    <g transform="translate(200,260)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="-6" r="1.4"/><circle cx="28" cy="-2" r="1.4"/><circle cx="42" cy="4" r="1.4"/><circle cx="56" cy="0" r="1.4"/><circle cx="70" cy="8" r="1.4"/>
+      <circle cx="14" cy="14" r="1.4"/><circle cx="28" cy="20" r="1.4"/><circle cx="42" cy="22" r="1.4"/><circle cx="56" cy="22" r="1.4"/><circle cx="70" cy="28" r="1.4"/><circle cx="84" cy="32" r="1.4"/>
+      <circle cx="28" cy="36" r="1.4"/><circle cx="42" cy="40" r="1.4"/><circle cx="56" cy="42" r="1.4"/>
+      <circle cx="42" cy="56" r="1.4"/><circle cx="56" cy="60" r="1.4"/><circle cx="70" cy="58" r="1.4"/>
+      <circle cx="56" cy="76" r="1.4"/><circle cx="70" cy="78" r="1.4"/><circle cx="84" cy="74" r="1.4"/>
+      <circle cx="70" cy="94" r="1.4"/><circle cx="84" cy="98" r="1.4"/><circle cx="98" cy="100" r="1.4"/><circle cx="112" cy="92" r="1.4"/>
+    </g>
+    <g transform="translate(380,560)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="6" r="1.4"/><circle cx="28" cy="2" r="1.4"/>
+      <circle cx="14" cy="20" r="1.4"/><circle cx="28" cy="22" r="1.4"/><circle cx="42" cy="18" r="1.4"/>
+      <circle cx="28" cy="40" r="1.4"/><circle cx="42" cy="44" r="1.4"/>
+      <circle cx="42" cy="64" r="1.4"/><circle cx="56" cy="68" r="1.4"/>
+      <circle cx="42" cy="86" r="1.4"/><circle cx="56" cy="90" r="1.4"/><circle cx="56" cy="110" r="1.4"/>
+    </g>
+    <g transform="translate(900,260)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="-4" r="1.4"/><circle cx="28" cy="2" r="1.4"/><circle cx="42" cy="-2" r="1.4"/><circle cx="56" cy="6" r="1.4"/>
+      <circle cx="14" cy="14" r="1.4"/><circle cx="28" cy="18" r="1.4"/><circle cx="42" cy="20" r="1.4"/><circle cx="56" cy="22" r="1.4"/><circle cx="70" cy="18" r="1.4"/>
+      <circle cx="28" cy="34" r="1.4"/><circle cx="42" cy="38" r="1.4"/><circle cx="56" cy="40" r="1.4"/>
+    </g>
+    <g transform="translate(960,420)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="6" r="1.4"/><circle cx="28" cy="2" r="1.4"/><circle cx="42" cy="8" r="1.4"/>
+      <circle cx="14" cy="22" r="1.4"/><circle cx="28" cy="26" r="1.4"/><circle cx="42" cy="22" r="1.4"/>
+      <circle cx="14" cy="42" r="1.4"/><circle cx="28" cy="46" r="1.4"/><circle cx="42" cy="44" r="1.4"/>
+      <circle cx="28" cy="64" r="1.4"/><circle cx="42" cy="68" r="1.4"/>
+      <circle cx="28" cy="84" r="1.4"/><circle cx="42" cy="88" r="1.4"/><circle cx="42" cy="106" r="1.4"/>
+    </g>
+    <g transform="translate(1180,240)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="4" r="1.4"/><circle cx="28" cy="-2" r="1.4"/><circle cx="42" cy="6" r="1.4"/><circle cx="56" cy="2" r="1.4"/><circle cx="70" cy="10" r="1.4"/>
+      <circle cx="84" cy="6" r="1.4"/><circle cx="98" cy="14" r="1.4"/><circle cx="112" cy="10" r="1.4"/><circle cx="126" cy="20" r="1.4"/><circle cx="140" cy="14" r="1.4"/><circle cx="154" cy="22" r="1.4"/>
+      <circle cx="14" cy="22" r="1.4"/><circle cx="28" cy="26" r="1.4"/><circle cx="42" cy="22" r="1.4"/><circle cx="56" cy="30" r="1.4"/><circle cx="70" cy="34" r="1.4"/><circle cx="84" cy="38" r="1.4"/>
+      <circle cx="98" cy="42" r="1.4"/><circle cx="112" cy="40" r="1.4"/><circle cx="126" cy="48" r="1.4"/><circle cx="140" cy="50" r="1.4"/><circle cx="154" cy="46" r="1.4"/>
+      <circle cx="42" cy="48" r="1.4"/><circle cx="56" cy="54" r="1.4"/><circle cx="70" cy="56" r="1.4"/><circle cx="84" cy="62" r="1.4"/><circle cx="98" cy="66" r="1.4"/><circle cx="112" cy="64" r="1.4"/>
+      <circle cx="126" cy="72" r="1.4"/><circle cx="84" cy="80" r="1.4"/><circle cx="98" cy="84" r="1.4"/><circle cx="112" cy="86" r="1.4"/><circle cx="126" cy="92" r="1.4"/><circle cx="140" cy="96" r="1.4"/>
+    </g>
+    <g transform="translate(1450,580)">
+      <circle cx="0" cy="0" r="1.4"/><circle cx="14" cy="6" r="1.4"/><circle cx="28" cy="2" r="1.4"/><circle cx="42" cy="10" r="1.4"/><circle cx="56" cy="6" r="1.4"/>
+      <circle cx="14" cy="20" r="1.4"/><circle cx="28" cy="24" r="1.4"/><circle cx="42" cy="22" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- 节点连线 -->
+  <g stroke="#5dade2" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M260,290 Q500,350 970,260" stroke-dasharray="3 4"/>
+    <path d="M970,260 Q1100,300 1240,260" stroke-dasharray="3 4"/>
+    <path d="M1240,260 Q1380,400 1490,600" stroke-dasharray="3 4"/>
+    <path d="M260,290 Q360,420 430,580" stroke-dasharray="3 4"/>
+    <path d="M970,260 Q1000,340 990,440" stroke-dasharray="3 4"/>
+  </g>
+
+  <!-- 节点高亮发光点 -->
+  <g>
+    <circle cx="260" cy="290" r="4" fill="#67c9ff"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="970" cy="260" r="4" fill="#67c9ff"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1240" cy="260" r="4" fill="#67c9ff"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1490" cy="600" r="4" fill="#67c9ff"><animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="580" r="4" fill="#67c9ff"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="440" r="4" fill="#67c9ff"><animate attributeName="opacity" values="1;0.4;1" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- 顶部水平扫描线 -->
+  <g opacity="0.18">
+    <line x1="0" y1="180" x2="1920" y2="180" stroke="#67c9ff" stroke-width="1"/>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#67c9ff" stroke-width="1"/>
+  </g>
+
+  <!-- 左下角十六进制流 -->
+  <g fill="#5dade2" opacity="0.18" font-family="Consolas, monospace" font-size="11">
+    <text x="60" y="900">0x4f8a 7c3e d2b1 9a6f e4c8 1057 b39d</text>
+    <text x="60" y="918">0x88f2 c14a 6e5b 03d7 9c2a f70b 4d81</text>
+    <text x="60" y="936">0xa15c 23df 9b04 e6a2 1c8f 4730 dab9</text>
+    <text x="60" y="954">SHA256: 3a7b9c8f4d2e1a5b6c8d9e0f2a4b6c8d</text>
+    <text x="60" y="972">[INFO] static-scan engine ready · YARA loaded · sandbox armed</text>
+  </g>
+
+  <!-- 右下角文字版 -->
+  <g fill="#5dade2" opacity="0.22" font-family="Consolas, monospace" font-size="12" text-anchor="end">
+    <text x="1860" y="940">SECURE · ENCRYPTED · MONITORED</text>
+    <text x="1860" y="960">WEB SHELL DETECTION PLATFORM</text>
+    <text x="1860" y="980">v1.0 · 2026</text>
+  </g>
+
+  <!-- 中央雷达圆环 -->
+  <g fill="none" stroke="#3b82f6" opacity="0.15">
+    <circle cx="960" cy="540" r="180" stroke-width="0.6"/>
+    <circle cx="960" cy="540" r="280" stroke-width="0.5"/>
+    <circle cx="960" cy="540" r="380" stroke-width="0.4"/>
+    <circle cx="960" cy="540" r="500" stroke-width="0.3"/>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+</svg>
